@@ -1,0 +1,170 @@
+*{padding: 0; margin: 0;}
+       
+
+.slot{
+
+      position: absolute;
+      left:400px;
+      top: 30px;
+}
+
+#book{
+    padding: 10px;
+}
+
+#book:hover{
+    background-color: #383838;
+    color: #f5f5f5;
+}
+.slot button{
+
+    border-radius: 40px;
+    height: 60px;
+    width: 190px;
+    font-size:18px;
+}
+
+.slot input{
+
+    width:190px;
+    height: 40px;
+    font-size:18px;
+}
+
+.green{
+
+    background: linear-gradient(to right,#71e7b0,#04f738);
+        color: black;
+}
+
+.red{
+    background: linear-gradient(to right,#ff8c8c,#e43737,#ff1616);
+    color:black;
+    cursor: not-allowed;
+    font-weight: bold;
+ }
+
+ .yellow{
+    background: linear-gradient(to right,#ffe08c,#e4bc37,#fffb16);
+    cursor: not-allowed;
+    font-weight: bold;
+ }
+
+#red select option{
+    display: none;
+}
+
+body{
+    background-color:#fff3c7;
+    color:black;
+    background-image:url(image5.jpeg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size: cover;
+}
+
+
+
+.form1{
+    position: absolute;
+    top: 150px;
+    left: 30px;
+    background-color:#d8d8d8;
+    backdrop-filter: blur(30px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 0.5em rgba(0,0,0,0.5);
+    height: 250px;
+    width: 200px;
+    padding: 15px;
+    border-radius: 15px;
+    
+    
+}
+
+#hide  {
+    display: none;
+}
+
+.links{
+    position: fixed;
+    top: 0;
+    left: 0%;
+    z-index: 5;
+    height: 100vh;
+    width: 250px;
+    background-color:#f5f5f5;
+    transform: translateX(-250px)
+}
+
+.link{
+
+    display: flex;
+    align-items: center;
+    padding: 12px 15px;
+    font-weight: 500;
+    text-decoration: none;
+    font-size: 14px;
+    color:#780cd1
+}
+
+.link:hover{
+    background-color: #780cd1;
+    color: #fff;
+    transition: 0.2s;
+}
+
+.open .links{
+    transform: translateX(0);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.navoverlay{
+    position: fixed;
+    left: 0%;
+   top: 0%;
+   width: 100vw;
+   height: 100vh;
+   background-color: rgba(0,0,0,0.2);
+   backdrop-filter: blur(2px);
+   visibility: hidden;
+   opacity: 0;
+   transition: 0.3s;
+}
+
+.open .navoverlay{
+    visibility: visible;
+    opacity: 1;
+}
+
+.nav button{
+
+    position: absolute;
+    right: 50px;
+    top: 35px;
+    width: 50px;
+    background: none;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+span{
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+   
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    color: white;
+}

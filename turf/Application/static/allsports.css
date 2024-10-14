@@ -1,0 +1,41 @@
+button{
+           
+    width: 20%;
+    height: 50%;
+    padding: 15px;
+    z-index:2;
+    position:relative;
+    left: 500px;
+    top: 80px;
+    font-size: 30px;
+    font-weight: bold;
+
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(214,214,214);
+    color: rgb(50,207,207);
+    box-shadow: -7px -7px 20px 0 rgba(255,255,255,0.7),
+                 7px 7px 20px 0 rgba(0,0,0,0.2);
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color:rgb(50,207,207);
+}
+
+  
+button:hover{
+    box-shadow: inset -7px -7px 20px 0 rgba(255,255,255,0.7),
+                inset 7px 7px 20px 0 rgba(0,0,0,0.2);
+}
+body{
+    background-color: rgb(214,214,214);
+   
+}
+
+#b2 a{
+    color: #f7418f;
+}
